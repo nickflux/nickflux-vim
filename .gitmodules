@@ -7,3 +7,15 @@
 [submodule "bundle/vim-surround.git"]
 	path = bundle/vim-surround.git
 	url = http://github.com/tpope/vim-surround.git
+[submodule "bufexplorer"]
+  path = bundle/bufexplorer
+  url = http://github.com/markabe/bufexplorer.git
+[submodule "tpope-vim-rails"]
+  path = bundle/tpope-vim-rails
+  url = http://github.com/tpope/vim-rails.git
+[submodule "tsaleh-vim-tcomment"]
+  path = bundle/tsaleh-vim-tcomment
+  url = http://github.com/tsaleh/vim-tcomment.git
+[submodule "vim-makegreen"]
+  path = bundle/vim-makegreen
+  url = http://github.com/reinh/vim-makegreen.git
