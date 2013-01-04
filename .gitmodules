@@ -28,6 +28,6 @@
 [submodule "bundle/vim-vroom"]
 	path = bundle/vim-vroom
 	url = git://github.com/skalnik/vim-vroom.git
-[submodule "bundle/vim-clojure"]
-	path = bundle/vim-clojure
-	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/vimclojure"]
+	path = bundle/vimclojure
+	url = git://github.com/gaverhae/vimclojure.git

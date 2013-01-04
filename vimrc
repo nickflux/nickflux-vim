@@ -148,7 +148,8 @@ function! PromoteToLet()
   :normal ==
 endfunction
 :command! PromoteToLet :call PromoteToLet()
-:map <leader>p :PromoteToLet<cr>
+" clashes with vimclojure mapping
+":map <leader>p :PromoteToLet<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -207,3 +208,10 @@ autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 map <Leader>] <Plug>MakeGreen
 
 let g:bufExplorerShowRelativePath=1
+
+" Settings for VimClojure
+let vimclojureRoot = "~/.vim/bundle/vimclojure"
+let vimclojure#HighlightBuiltins=1
+let vimclojure#HighlightContrib=1
+let vimclojure#DynamicHighlighting=1
+let vimclojure#ParenRainbow=1
