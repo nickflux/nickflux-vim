@@ -52,7 +52,7 @@ set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 
 " Or use vividchalk
 "colorscheme vividchalk 
-set background=light
+set background=dark
 colorscheme solarized
 
 
