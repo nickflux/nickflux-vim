@@ -51,9 +51,9 @@ set laststatus=2                  " Show the status line all the time
 set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 
 " Or use vividchalk
-"colorscheme vividchalk 
-set background=dark
-colorscheme solarized
+colorscheme vividchalk 
+"set background=dark
+"colorscheme solarized
 
 
 
@@ -215,3 +215,5 @@ let vimclojure#HighlightBuiltins=1
 let vimclojure#HighlightContrib=1
 let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
+
+let g:Powerline_symbols = 'fancy'
