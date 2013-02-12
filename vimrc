@@ -11,6 +11,7 @@ filetype plugin indent on         " Turn on file type detection.
 
 runtime macros/matchit.vim        " Load the matchit plugin.
 
+set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
 
@@ -216,4 +217,3 @@ let vimclojure#HighlightContrib=1
 let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 
-let g:Powerline_symbols = 'fancy'
