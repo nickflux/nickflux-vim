@@ -52,9 +52,11 @@ set laststatus=2                  " Show the status line all the time
 set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 
 " Or use vividchalk
-colorscheme vividchalk 
-"set background=dark
-"colorscheme solarized
+"colorscheme vividchalk 
+set background=light
+colorscheme solarized
+let g:solarized_termcolors=256
+
 
 
 
@@ -145,12 +147,12 @@ function! PromoteToLet()
   :normal! dd
   " :exec '?^\s*it\>'
   :normal! P
-  :.s/\(\w\+\) = \(.*\)$/let(:\1) { \2 }/
+  :.s/\(\w\+\)\s\+= \(.*\)$/let(:\1) { \2 }/
   :normal ==
 endfunction
 :command! PromoteToLet :call PromoteToLet()
 " clashes with vimclojure mapping
-":map <leader>p :PromoteToLet<cr>
+:map <leader>p :PromoteToLet<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
